@@ -1,0 +1,106 @@
+header {
+    margin-bottom: 60px;
+}
+
+body {
+    background-color: #4baddd;
+    margin: 0;
+}
+
+nav {
+    float: left;
+    width: 30%;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebeced+0,d1d5d6+100,7db9e8+100 */
+background: #ebeced; /* Old browsers */
+background: -moz-linear-gradient(top,  #ebeced 0%, #d1d5d6 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ebeced 0%,#d1d5d6 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ebeced 0%,#d1d5d6 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeced', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+height: 100%;
+
+}
+
+.bscontent {
+    float: left;
+    padding-right: 45px;
+    padding-left:45px;  
+    width: 60%;
+    height: 300px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li:hover{
+    background: white;
+}
+
+ul li:active {
+    background: white;
+}
+
+
+
+li {
+    list-style-type: none;
+    /* padding-left: 37px; */
+    padding-right: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.bs {
+    font-family: 'Source Sans Pro';
+    color: #9ba0a4;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 100px;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+    height: 1000px;
+    background-color: white;
+}
+
+.right-shadow {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 7px;
+    background: linear-gradient(90deg,transparent,#000 90%,#000);
+    opacity: .3;
+}
+
+.bsa {
+padding: 100px;
+border: RED;
+}
+
+.active{
+background: white;
+transition: width 2s;
+}
+
+.bscontent p {
+    color: #65686f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
